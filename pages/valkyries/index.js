@@ -1,8 +1,8 @@
-import Image from 'next/image'
-import seeleSN from '../assets/avatars/seeleSN.png'
+/*import Image from 'next/image'
+import seeleSN from '../assets/avatars/seeleSN.png'*/
 import { useState } from 'react';
-import Charactercardsmall from '../components/Charactercardsmall';
-import Valksuits from '../components/Valksuits';
+import Charactercardsmall from '../../components/Charactercardsmall';
+import Valksuits from '../../components/Valksuits';
 
 function Characters() {
 

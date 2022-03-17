@@ -10,17 +10,17 @@ function Navdrawer( { handleMenuStatus } ) {
         },
         {
             type: 'Valkyries',
-            link: 'Valkyries',
+            link: 'valkyries/',
             icon: ''
         },
         {
             type: 'Stigmatas',
-            link: 'Stigmatas',
+            link: 'stigmatas/',
             icon: ''
         },
         {
             type: 'Weapons',
-            link: 'Weapons',
+            link: 'weapons/',
             icon: ''
         },
     ]

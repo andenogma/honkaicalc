@@ -15,6 +15,9 @@
 # firebase key
 /utils/db/serviceAccountKey.json
 
+# db mockups
+/utils/db/mockups
+
 # production
 /build
 
