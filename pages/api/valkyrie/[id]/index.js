@@ -1,4 +1,4 @@
-import db from '../../../utils/db';
+import db from '../../../../utils/db';
 
 export default async (req, res) => {
   const { id } = req.query;
@@ -14,6 +14,7 @@ export default async (req, res) => {
       if (!doc.exists) {
         res.status(404).end();
       } else {
+        valks = doc.data()
         res.status(200).json(doc.data());
       }
     } else if (req.method === 'DELETE') {

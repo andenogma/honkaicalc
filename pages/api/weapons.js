@@ -2,11 +2,12 @@ import db from '../../utils/db';
 
 export default async (req, res) => {
   try {
-    const entries = await db.collection('weapons').orderBy('slug').get();
+    const entries = await db.collection('weapons').get();
     const entriesData = entries.docs.map(entry => ({
       id: entry.id,
       ...entry.data()
     }));
+    console.log(entriesData);
     res.status(200).json({ entriesData });
   } catch (e) {
     res.status(400).end();
