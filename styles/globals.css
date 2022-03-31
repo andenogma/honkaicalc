@@ -2,10 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-body {background-color: black;}
+body {
+    background-color: black;
+    overflow:hidden;
+}
 
 .wrapper {
     letter-spacing:0;
     word-spacing: 0;
     font-size: 0;
+}
+
+.main-content {
+    height:  calc(100vh - 56px);
+}
+
+.hide-bar::-webkit-scrollbar {
+    display: none;
 }

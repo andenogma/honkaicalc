@@ -9,7 +9,7 @@ function Navdrawer( { handleMenuStatus } ) {
     const menuItems = [
         {
             type: 'Team',
-            link: 'Team',
+            link: 'team/',
             icon: ''
         },
         {
